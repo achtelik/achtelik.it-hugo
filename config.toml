@@ -94,20 +94,20 @@ github = "achtelik"
 linkedin = "matthias-achtelik-a28a4b253"
 
 [[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+#name = "John Doe"
+#url = "https://gohugo.io"
 
 [[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+#name = "John Doe"
+#url = "https://gohugo.io"
 
 # See https://giscus.app/
 [params.giscus]
 enable = true
-repo = "roninro/hugo-theme-puppet"
-repo_id = "R_kgDOHuvyhw"
-category = "General"
-category_id = "DIC_kwDOHuvyh84CQjDo"
+repo = "achtelik.it-hugo"
+repo_id = "R_kgDOISQhIQ"
+category = "Giscus"
+category_id = "DIC_kwDOISQhIc4CSI8M"
 input_position = "top"
 theme = "light_tritanopia"
 lang = "en"
