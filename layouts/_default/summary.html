@@ -1,0 +1,21 @@
+<div class="post-preview">
+    <a href="{{ .RelPermalink }}">
+        <h2 class="post-title">{{ .Title }}</h2>
+        {{ with .Params.subtitle }}
+        <h3 class="post-subtitle">{{ . }}</h3>
+        {{ end }}
+    </a>
+    <p class="post-meta">
+        {{ .Date.Format "2006-01-02" }}
+        {{ if (or (isset $.Params "author") (isset .Site.Params "author" )) }}
+        Posted by {{ with $.Params.author }} {{ $.Params.author }} {{ else }} {{ .Site.Params.author }} {{ end }}
+        {{ end }}
+    </p>
+    <div class="post-content-preview">
+        {{ if isset .Params "description" }} {{ index .Params "description" }}
+        {{ else }}
+        {{ .Summary }}
+        {{ end }}
+    </div>
+</div>
+<hr>
