@@ -1,6 +1,6 @@
 ---
 title:  "Reusable Clean Architecture"
-date: 2022-10-11 20:20:00
+date: 2022-10-14
 categories: software development
 ---
 

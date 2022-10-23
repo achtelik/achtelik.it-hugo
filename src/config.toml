@@ -104,7 +104,7 @@ linkedin = "matthias-achtelik-a28a4b253"
 # See https://giscus.app/
 [params.giscus]
 enable = true
-repo = "achtelik.it-hugo"
+repo = "achtelik/achtelik.it-hugo"
 repo_id = "R_kgDOISQhIQ"
 category = "Giscus"
 category_id = "DIC_kwDOISQhIc4CSI8M"
