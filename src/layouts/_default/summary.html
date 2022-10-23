@@ -6,7 +6,7 @@
         {{ end }}
     </a>
     <p class="post-meta">
-        {{ .Date.Format "2006-01-02" }}
+        {{ .Date.Format .Site.Params.dateFormat }}
         {{ if (or (isset $.Params "author") (isset .Site.Params "author" )) }}
         Posted by {{ with $.Params.author }} {{ $.Params.author }} {{ else }} {{ .Site.Params.author }} {{ end }}
         {{ end }}

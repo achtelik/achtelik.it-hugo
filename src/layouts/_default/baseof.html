@@ -103,12 +103,12 @@
     <div class="row">
       {{ if eq .Site.Params.sidebar.enable false }}
 
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1
       postlist-container">
         {{ block "container" . }}{{ end }}
       </div>
       <!-- Sidebar Container -->
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1
       sidebar-container">
         <!-- Featured Tags -->
         {{ partial "featured-tags.html" . }}

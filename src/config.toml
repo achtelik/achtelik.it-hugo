@@ -70,6 +70,7 @@ weight = 100
 [params]
 #author = "Puppet"
 description = "Thoughts of a software engineer."
+dateFormat = "2006-01-02"
 keywords = "blog,software,engineer,developer,personal"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
