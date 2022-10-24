@@ -1,14 +1,11 @@
 .post-preview {
-  > .post-title {
-    margin-bottom: 0;
-  }
-
   > .post-meta {
     margin-bottom: 0;
   }
 
   @media only screen and (min-width: 768px) {
     > a {
+      color: $custom-primary;
       > .post-title {
         font-size: 26px;
         line-height: 1.3;

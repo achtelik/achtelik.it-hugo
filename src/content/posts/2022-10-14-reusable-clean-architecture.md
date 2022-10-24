@@ -2,7 +2,6 @@
 title:  "Reusable Clean Architecture"
 date: 2022-10-14
 categories: software development
-header_img: /img/2022-10-13.png
 ---
 
 The following package structure is my personal preferred project structure.

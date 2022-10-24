@@ -6,10 +6,8 @@
         {{ end }}
     </a>
     <p class="post-meta">
-        {{ .Date.Format .Site.Params.dateFormat }}
-        {{ if (or (isset $.Params "author") (isset .Site.Params "author" )) }}
         Posted by {{ with $.Params.author }} {{ $.Params.author }} {{ else }} {{ .Site.Params.author }} {{ end }}
-        {{ end }}
+        on {{ .Date.Format .Site.Params.dateFormat }}
     </p>
     <div class="post-content-preview">
         {{ if isset .Params "description" }} {{ index .Params "description" }}
